@@ -1,21 +1,20 @@
 body {
-  background-color: rgb(95, 177, 255);
+  margin: 0;
+}
+
+.forky {
+  background: linear-gradient(190deg, rgb(95, 177, 255) 50%, rgb(62, 131, 196) 0);
+  width: 100vw;
+  height: 100vh;
+	position: relative;
 }
 
 .title {
   font-family: 'Josefin Sans', sans-serif;
   position: absolute;
-  top: -300px;
   font-size: 50px;
-  right: -70px;
-}
-
-.forky {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-  background-color: rgb(95, 177, 255);
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .face {
@@ -24,9 +23,9 @@ body {
 	background: #f0f0f0;
 	position: absolute;
 	border-radius: 65% 30% 65% 28%;
-	transform: rotate(-45deg);
-  top: -135px;
-  left: -147px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
 }
 
 .face-mask1 {
@@ -34,8 +33,15 @@ body {
   width: 300px;
   height: 75px;
   position: absolute;
-  left: -150px;
-  top: -180px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 25%;
+}
+.prongs {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%);
 }
 
 .prong1, .prong2, .prong3, .prong4 {
@@ -70,10 +76,11 @@ body {
   width: 110px;
   height: 110px;
   border-radius: 100%;
-  top: -60px;
-  left: -100px;
+  top: 48%;
+  left: 44%;
   background: white;
   box-shadow: 1px 1px 2px 0px #7f7f7f;
+  transform: translate(-50%, -50%);
 }
 
 .eye2 {
@@ -81,10 +88,11 @@ body {
   width: 70px;
   height: 70px;
   border-radius: 100%;
-  top: -35px;
-  left: 20px;
+  top: 50%;
+  left: 57%;
   background: white;
   box-shadow: 1px 1px 2px 0px #7f7f7f;
+  transform: translate(-50%, -50%);
 }
 
 .pupil1 {
