@@ -1,6 +1,15 @@
 body {
   background-color: rgb(95, 177, 255);
 }
+
+.title {
+  font-family: 'Josefin Sans', sans-serif;
+  position: absolute;
+  top: -300px;
+  font-size: 50px;
+  right: -70px;
+}
+
 .forky {
 	position: absolute;
 	top: 50%;
