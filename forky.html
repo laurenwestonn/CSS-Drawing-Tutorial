@@ -5,23 +5,33 @@
     <script defer src="./all.js"></script> <!--load all styles -->
     <link rel="stylesheet" type="text/css" href="./css/forky.css">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="forky.js"></script>
   </head>
   <body>
-    <div class="forky">
-      <p class="title" style="font-family: 'Josefin Sans', sans-serif;">Forky</p>
-      <div class="face"></div>
-      <div class="face-mask1"></div>
-      <div class="prongs">  
-        <div class="prong1"></div>
-        <div class="prong2"></div>
-        <div class="prong3"></div>
-        <div class="prong4"></div>
+    <div class="background">
+      <div class="title-wrapper">
+        <p class="title" style="font-family: 'Josefin Sans', sans-serif;">Forky</p>
+        <span class="title-icon fas fa-utensils"></span>
       </div>
-      <div class="eye1">
-        <div class="pupil1"></div>
-      </div>
-      <div class="eye2">
-        <div class="pupil2"></div>
+      <div class="circle rotate">Rotate</div>
+      <div class="circle rotate-x">RotateX</div>
+      <div class="circle rotate-y">RotateY</div>
+      <div class="face">
+        <div class="face-undo-rotate">
+          <div class="face-mask"></div>
+          <div class="prongs">  
+            <div class="prong1"></div>
+            <div class="prong2"></div>
+            <div class="prong3"></div>
+            <div class="prong4"></div>
+          </div>
+          <div class="eye1">
+            <div class="pupil1"></div>
+          </div>
+          <div class="eye2">
+            <div class="pupil2"></div>
+          </div>
+        </div>
       </div>
     </div>
   </body>
